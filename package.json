@@ -1,0 +1,61 @@
+{
+  "name": "dsh-skill-studio-codex",
+  "version": "1.0.0",
+  "description": "Codex-compatible Skill Studio for DeepSeek Harness: manage, edit, create, enable, and invoke SKILL.md skills from a sidebar page.",
+  "type": "module",
+  "license": "MIT",
+  "author": "PopCapEA",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PopCapEA/dsh-skill-studio.git"
+  },
+  "homepage": "https://github.com/PopCapEA/dsh-skill-studio#readme",
+  "bugs": {
+    "url": "https://github.com/PopCapEA/dsh-skill-studio/issues"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "skill",
+    "skills",
+    "codex",
+    "cordis"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-sidebar",
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  }
+}

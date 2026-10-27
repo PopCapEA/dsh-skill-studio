@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "title": "Skill Studio",
+    "description": "A Codex-compatible skills manager in the sidebar: browse Codex, DSH, and shared skills; create, edit, enable, disable, and invoke SKILL.md skills."
+  },
+  "nav": {
+    "title": "Skills"
+  }
+}

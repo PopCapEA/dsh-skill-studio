@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "title": "技能工作室",
+    "description": "侧栏中的 Codex 兼容技能管理器：浏览 Codex、DSH 与共享技能，创建、编辑、启用、停用并调用 SKILL.md 技能。"
+  },
+  "nav": {
+    "title": "技能"
+  }
+}
