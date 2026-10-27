@@ -93,20 +93,25 @@ tool, which returns the same canonical `<skill_content>` shape.
 
 ## Installation
 
-This package is a normal DSH bundle:
+Install directly from the public GitHub repository:
+
+```powershell
+dsh plugin --profile <profile> add github:PopCapEA/dsh-skill-studio
+```
+
+Or install the release tarball:
+
+```powershell
+dsh plugin --profile <profile> add "https://github.com/PopCapEA/dsh-skill-studio/releases/download/v1.0.0/dsh-skill-studio-codex-1.0.0.tgz"
+```
+
+Or, after the npm release, use the package name:
 
 ```powershell
 dsh plugin --profile <profile> add dsh-skill-studio-codex
 ```
 
-Or install from a checkout / release tarball:
-
-```powershell
-dsh plugin --profile <profile> add <absolute path to this directory or .tgz>
-```
-
-Or install it through the DSH Plugin Manager with the absolute package
-directory. Refresh the page after installation; the **Skills** icon appears in
+Refresh the page after installation; the **Skills** icon appears in
 the left panel list.
 
 ## Design notes
