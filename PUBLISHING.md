@@ -6,12 +6,13 @@ running plugin.
 
 ## Current status
 
-- Tarball: `dist/dsh-skill-studio-codex-1.0.0.tgz`
+- Tarball: `dist/dsh-skill-studio-codex-1.0.0.tgz` (SHA-256 `FA08C51A78BBB3CA9AF7933B9FBAB55525BDE0B70B3701537DC245DCA5974F84`)
 - npm package name: `dsh-skill-studio-codex` (unclaimed at the time of writing)
 - GitHub repository: <https://github.com/PopCapEA/dsh-skill-studio>
-- npm/GitHub authentication: **not configured on this machine** — the upload
-  steps below must be run after logging in
-- Market submission: prepared as `submission/PopCapEA__dsh-skill-studio.yml`
+- GitHub release: <https://github.com/PopCapEA/dsh-skill-studio/releases/tag/v1.0.0>
+- Market PR: <https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/9703> (open; the one-day repository-age gate clears itself and the gate workflow re-runs automatically)
+- npm authentication: **not configured on this machine** — npm publish is the only remaining upload step
+- Market submission: copied into the PR as `data/plugins/PopCapEA__dsh-skill-studio.yml`
 
 ## 1. Create the public GitHub repository
 
